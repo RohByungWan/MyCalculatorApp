@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     //numButtonClick 메서드로 xml 에 있는 Button을 한번에 등록 하여 코드
-    //가독성과 생산성 증가
+    //가독성과 생산성 증가했음
     public void numButtonClick(View view) {
         Button button = findViewById(view.getId());
         String getButtonText = button.getText().toString();
